@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Environment, OrbitControls } from "@react-three/drei"
 import { Canvas, useFrame, useLoader } from "@react-three/fiber"
 import { Suspense, useRef, useState } from "react"
