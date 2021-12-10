@@ -4,7 +4,7 @@ import { Suspense, useRef } from "react"
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
 
 const Box = () => {
-  const gltf = useLoader(GLTFLoader, "./mesh1/textured.gltf")
+  const gltf = useLoader(GLTFLoader, "./test/textured.gltf")
 
   return (
     <>
